@@ -1,38 +1,76 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 100px;
+}
+
+.Main {
+  margin: 100px 0;
+}
+
+.Button {
+  background: blue;
   color: white;
+  height: 50px;
+  width: 300px;
+  font-size: x-large;
+  cursor: pointer;
+  margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.Button-black {
+  background-color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Button-disabled {
+  background-color: #00BFFF;
+}
+
+.Label {
+  margin-right: 20px;
+  font-size: x-large;
+}
+
+.success {
+  font-size: 100px;
+  color: blue;
+}
+
+.Input {
+  font-size: x-large;
+}
+
+.Stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background: blue;
+  color: white;
+  border-radius: 100px;
+  font-size: x-large;
+}
+
+.Line {
+  height: 4px;
+  width: 100px;
+  background: blue;
+}
+
+.Faded {
+  background: #00BFFF;
+}
+
+.Input-wrapper {
+  margin-bottom: 20px;
 }
